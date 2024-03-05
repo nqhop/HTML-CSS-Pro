@@ -127,3 +127,37 @@ a {
     right: calc((100vw - 1110px) / 2 - 100px);
     bottom: 0;
 }
+
+/* ======= clients ======= */
+
+.stars img {
+    width: 30px;
+}
+
+.clients {
+    margin-top: 112px;
+}
+
+.clients .row {
+    display: flex;
+    justify-content: space-between;
+}
+
+.clients .row p {
+    color: #7d8589;
+    font-size: 1.6rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 125%; /* 125% */
+}
+
+.clients .row + .row {
+    margin-top: 23px;
+}
+
+.clients .images {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 70px;
+}
