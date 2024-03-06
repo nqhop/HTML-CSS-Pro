@@ -355,20 +355,21 @@ header {
     display: flex;
 }
 
-.stats .row > * {
+.stats .content > .row {
+    position: relative;
+}
+.stats .img-info > * {
     flex: 1;
 }
 
-.stats .img-block img {
+.stats .img-block .image {
     width: 400px;
     height: 460px;
-    margin-left: auto;
-    display: block;
     border-radius: 12px;
 }
 
 .stats .info {
-    margin-left: 165px;
+    /* margin-left: 165px; */
     margin-top: 79px;
     position: relative;
 }
@@ -401,4 +402,14 @@ header {
     font-size: 1.6rem;
     font-weight: 400;
     line-height: 1.88;
+}
+
+.stats .stats-trend {
+    position: absolute;
+    top: 0;
+    width: 239px;
+    height: 252px;
+    background: #fff;
+    border-radius: 0px 0px 12px 12px;
+    box-shadow: 90px 85px 100px 0px rgba(0, 0, 0, 0.06);
 }
