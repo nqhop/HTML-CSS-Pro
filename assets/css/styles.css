@@ -43,6 +43,13 @@ a {
     opacity: 0.9;
 }
 
+.line-clamp {
+    display: -webkit-box;
+    -webkit-line-clamp: var(--line-clamp, 2);
+    -webkit-box-orient: vertical;
+    overflow: hidden;   
+}
+
 /* ======== header =========*/
 header {
     background-color: #e6f0ff;
@@ -269,11 +276,12 @@ header {
     padding: 17px 20px 23px;
 }
 
-.featured .body .title {
+.featured .body .title a{
     color: #000339;
     font-size: 2rem;
     font-weight: 600;
     line-height: 1;
+    word-break: break-all;
 }
 
 .featured .body .desc {
