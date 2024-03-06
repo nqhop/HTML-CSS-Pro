@@ -44,7 +44,7 @@ a {
 }
 
 /* ======== header =========*/
-.header {
+header {
     background-color: #e6f0ff;
     height: 100vh;
     position: relative;
@@ -234,6 +234,44 @@ a {
     margin-right: 6px;
 }
 
-.guides-btn{
+.guides-btn {
     margin-top: 50px;
+}
+
+/* ======== Featured =========*/
+
+.featured {
+    margin-top: 230px;
+}
+
+.featured .row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.featured .sub-title {
+    color: #000339;
+    font-size: 3.5rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 1;
+}
+
+.featured .desc {
+    color: #5A6473;
+    font-size: 1.6rem;
+    font-weight: 400;
+    line-height: 1.875;
+    margin-top: 15px;
+}
+
+.featured .link {
+    color: #0689FF;
+    font-size: 1.8rem;
+    font-weight: 600;
+}
+
+.featured .link .arrow {
+    margin-left: 8px;
 }
