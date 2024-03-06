@@ -47,7 +47,7 @@ a {
     display: -webkit-box;
     -webkit-line-clamp: var(--line-clamp, 2);
     -webkit-box-orient: vertical;
-    overflow: hidden;   
+    overflow: hidden;
 }
 
 /* ======== header =========*/
@@ -276,7 +276,7 @@ header {
     padding: 17px 20px 23px;
 }
 
-.featured .body .title a{
+.featured .body .title a {
     color: #000339;
     font-size: 2rem;
     font-weight: 600;
@@ -338,4 +338,67 @@ header {
 
 .featured .link .arrow {
     margin-left: 8px;
+}
+
+/* ======== stats =========*/
+.stats {
+    padding: 50px 0px;
+    margin-top: 75px;
+}
+
+.stats .content {
+    background: orange;
+    width: 1018px;
+}
+
+.stats .row {
+    display: flex;
+}
+
+.stats .row > * {
+    flex: 1;
+}
+
+.stats .img-block img {
+    width: 400px;
+    height: 460px;
+    margin-left: auto;
+    display: block;
+    border-radius: 12px;
+}
+
+.stats .info {
+    margin-left: 165px;
+    margin-top: 79px;
+    position: relative;
+}
+
+.stats .info .sub-title {
+    width: 279px;
+    color: #000339;
+    font-size: 3.5rem;
+    font-weight: 600;
+    line-height: 1.28;
+}
+
+
+.stats .info .sub-title::before {
+    content: '';
+    display: block;
+    position: absolute;
+    top: -10px;
+    width: 41px;
+    height: 4px;
+    flex-shrink: 0;
+    border-radius: 12px;
+    background: #000339;
+}
+
+.stats .info .desc {
+    width: 309px;
+    margin-top: 20px;
+    color: #5A6473;
+    font-size: 1.6rem;
+    font-weight: 400;
+    line-height: 1.88;
 }
