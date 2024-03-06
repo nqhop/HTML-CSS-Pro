@@ -9,6 +9,7 @@
 html {
     font-size: 62.5%;
 }
+
 body {
     font-size: 1.6rem;
     font-family: "Poppins";
@@ -21,20 +22,23 @@ body {
     margin-right: auto;
     margin-left: auto;
 }
+
 a {
     text-decoration: none;
 }
+
 .btn {
     display: inline-block;
     min-width: 98px;
     padding: 18px 16px;
     background: var(--primary-color);
-    border-radius: 8px;
+    border-radius: 12px;
     font-size: 1.4rem;
     font-weight: 500;
     text-align: center;
     color: #ffffff;
 }
+
 .btn:hover {
     opacity: 0.9;
 }
@@ -67,6 +71,7 @@ a {
     color: #4f5361;
     padding: 8px 14px;
 }
+
 .navbar ul a:hover {
     text-decoration: underline;
 }
@@ -80,6 +85,7 @@ a {
 .navbar .action-btn {
     padding: 13px 16px;
     margin-left: 18px;
+    border-radius: 8px;
 }
 
 /* Hero */
@@ -90,6 +96,7 @@ a {
 .hero .info {
     width: 51%;
 }
+
 .hero .sub-title {
     color: #687690;
     font-size: 1.8rem;
@@ -113,7 +120,8 @@ a {
     font-size: 1.8rem;
     font-style: normal;
     font-weight: 400;
-    line-height: 32px; /* 177.778% */
+    line-height: 32px;
+    /* 177.778% */
     margin-top: 30px;
 }
 
@@ -148,10 +156,11 @@ a {
     font-size: 1.6rem;
     font-style: normal;
     font-weight: 500;
-    line-height: 125%; /* 125% */
+    line-height: 125%;
+    /* 125% */
 }
 
-.clients .row + .row {
+.clients .row+.row {
     margin-top: 23px;
 }
 
@@ -160,4 +169,71 @@ a {
     justify-content: space-between;
     align-items: center;
     margin-top: 70px;
+}
+
+/* ======== guildes =========*/
+.guides {
+    display: flex;
+    text-align: center;
+    margin-top: 160px;
+}
+
+.guides .line {
+    width: 41px;
+    height: 4px;
+    flex-shrink: 0;
+    border-radius: 12px;
+    background: #000339;
+    margin: 0 auto;
+}
+
+.guides .sub-title {
+    color: #000339;
+    font-size: 3.5rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 1;
+    margin-top: 10px;
+}
+
+.guides .desc {
+    color: #5A6473;
+    font-size: 1.6rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.875;
+    max-width: 459px;
+    margin: 20px auto 0;
+}
+
+.list-guide {
+    margin: 70px auto 0;
+    display: flex;
+    justify-content: center;
+}
+
+.guide-item {
+    margin: 0 70px;
+    align-items: center;
+}
+
+.guide-item .title {
+    color: #3B3C45;
+    font-size: 2rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.1;
+    margin: 26px 0 10px;
+}
+
+.guide-item span {
+    color: #0689FF;
+    font-size: 1.4rem;
+    font-style: normal;
+    font-weight: 600;
+    margin-right: 6px;
+}
+
+.guides-btn{
+    margin-top: 50px;
 }
