@@ -347,7 +347,7 @@ header {
 }
 
 .stats .content {
-    background: orange;
+    /* background: orange; */
     width: 1018px;
 }
 
@@ -355,21 +355,25 @@ header {
     display: flex;
 }
 
-.stats .content > .row {
+.stats .content>.row {
     position: relative;
 }
-.stats .img-info > * {
-    flex: 1;
+
+.stats .img-info>* {
+    width: 50%;
 }
 
 .stats .img-block .image {
     width: 400px;
     height: 460px;
     border-radius: 12px;
+    display: block;
+    margin-left: auto;
 }
 
 .stats .info {
     /* margin-left: 165px; */
+    padding-left: 165px;
     margin-top: 79px;
     position: relative;
 }
@@ -412,4 +416,57 @@ header {
     background: #fff;
     border-radius: 0px 0px 12px 12px;
     box-shadow: 90px 85px 100px 0px rgba(0, 0, 0, 0.06);
+}
+
+.stats-trend {
+    padding: 45px 20px;
+}
+
+.stats-trend .value {
+    color: #000339;
+    font-size: 2.6rem;
+    font-weight: 700;
+    line-height: 1;
+    letter-spacing: 0.26px;
+}
+
+.stats-trend .plus {
+    font-weight: 500;
+}
+
+.stats-trend .desc {
+    margin-top: 8px;
+    color: #A7A7A7;
+    font-size: 1.2rem;
+    font-weight: 400;
+    line-height: 1.5;
+}
+
+.stats-trend .seperate {
+    margin-top: 26px;
+    width: 193.62px;
+    height: 1.2px;
+    flex-shrink: 0;
+    background: #E9E9E9;
+}
+
+.stats-trend .avatar-block {
+    margin-top: 26px;
+}
+
+.stats-trend .avatar-group {
+    height: 16.337px;
+    display: inline-block;
+    position: relative;
+}
+
+.stats-trend .avatar{
+    height: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.stats-trend .avatar-group .avatar:nth-child(2) {
+    position: absolute;
+    left: 12px;  
 }
