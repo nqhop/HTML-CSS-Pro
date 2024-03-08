@@ -481,7 +481,7 @@ header {
 
 .row-qty {
     display: flex;
-    justify-content: space-between  ;
+    justify-content: space-between;
     margin-top: 120px;
 }
 
@@ -496,4 +496,41 @@ header {
     font-size: 1.8rem;
     font-weight: 500;
     margin-top: 22px;
+}
+
+/* ===== Subscription ===== */
+.subscription .body {
+    border-radius: 20px;
+    background: #063183;
+    padding: 149px 80px 110px;
+    position: relative;
+}
+
+.subscription .sub-title {
+    color: #FFF;
+    font-size: 3.5rem;
+    font-weight: 600;
+    line-height: 1;
+}
+
+.subscription .desc {
+    margin-top: 15px;
+    color: #FFF;
+    font-size: 1.6rem;
+    font-weight: 400;
+    line-height: 1.87;
+    opacity: 0.75;
+}
+
+.subscription .btn {
+    margin-top: 20px;
+    padding: 14px 42px;
+    background: #fff;
+    color: #002366;
+}
+
+.subscription img{
+    position: absolute;
+    bottom: 0;
+    right: 221px;
 }
