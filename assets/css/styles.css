@@ -548,10 +548,11 @@ header {
 }
 
 .footer .heading {
+    font-family: "Lato", sans-serif;
+    font-weight: 700;
     margin-bottom: 42px;
     color: #1C1C1D;
     font-size: 2rem;
-    font-weight: 700;
 }
 
 .footer .desc,
