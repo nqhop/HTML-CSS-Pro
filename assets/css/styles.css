@@ -65,6 +65,7 @@ button {
 /* ===== header ===== */
 header {
     background-color: #FFFCF4;
+    z-index: 9;
 }
 
 header.fixed {
@@ -121,9 +122,13 @@ nav .active a::after {
 }
 
 /* ===== hero ===== */
+.hero{
+    background: #FFFCF4;
+    padding: 56px 0 64px;
+}
+
 .hero .body {
     display: flex;
-    margin: 56px 0px 0px;
 }
 
 .hero .media-block {
@@ -135,6 +140,7 @@ nav .active a::after {
     width: 470px;
     height: 685px;
     border-radius: 20px;
+    vertical-align: bottom;
 }
 
 /* hero-info */
