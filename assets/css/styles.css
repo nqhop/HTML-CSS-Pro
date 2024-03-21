@@ -66,16 +66,16 @@ button {
     color: #171100;
     font-family: var(--font-heading);
     font-weight: 700;
-    
+
     letter-spacing: -1.16px;
 }
 
-h1.heading{
+h1.heading {
     font-size: 5.8rem;
     line-height: 1.17;
 }
 
-h2.heading{
+h2.heading {
     font-size: 3.8rem;
     line-height: 1.26;
 }
@@ -287,7 +287,7 @@ nav .active a::after {
 }
 
 /* ====== popular ===== */
-.popular{
+.popular {
     padding: 65px 0 65px;
     margin-top: 135px;
 }
@@ -306,12 +306,12 @@ nav .active a::after {
     margin-top: 16px;
 }
 
-.popular .controls{
+.popular .controls {
     display: flex;
     gap: 22px;
 }
 
-.popular .control-btn{
+.popular .control-btn {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -321,13 +321,83 @@ nav .active a::after {
     border-radius: 50%;
     border: 1px solid var(--primary-color-2);
 }
+
 .popular .control-btn path {
     stroke: var(--primary-color-2);
 }
-.popular .control-btn:hover{
+
+.popular .control-btn:hover {
     background: var(--primary-color-2);
 }
 
-.popular .control-btn:hover path{
+.popular .control-btn:hover path {
     stroke: white;
+}
+
+/* course-list */
+.course-list {
+    margin-top: 55px;
+    display: flex;
+    gap: 30px;
+}
+
+.course-list .course-item {
+    width: 370px;
+}
+
+.course-list .thumb {
+    width: 100%;
+    height: 278px;
+    border-radius: 12px 12px 0px 0px;
+}
+
+.course-list .info {
+    padding: 16px 22px 22px;
+}
+
+.course-list .title {
+    color: #171100;
+    font-size: 1.8rem;
+    font-weight: 600;
+    line-height: 1.66;
+}
+
+.course-list .head {
+    display: flex;
+    align-items: center;
+}
+
+.course-list .rating {
+    margin-left: auto;
+    display: flex;
+}
+
+.course-list .rating span {
+    margin-left: 6px;
+    color: #FEA31B;
+    font-size: 1.6rem;
+    line-height: 1.75;
+}
+
+.course-list .desc {
+    color: #5F5B53;
+    font-size: 1.4rem;
+    font-style: normal;
+    line-height: 1.85;
+    margin-top: 6px;
+}
+
+.course-list .foot {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 12px;
+    color: #171100;
+    font-size: 1.8rem;
+    font-weight: 600;
+    line-height: 1.66;
+}
+
+.course-list .foot .btn:hover{
+    background: var(--primary-color-2);
 }
