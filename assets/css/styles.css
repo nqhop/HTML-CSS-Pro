@@ -465,3 +465,46 @@ nav .active a::after {
     font-style: italic;
     line-height: 1.53;
 }
+
+/* features */
+.features {
+    margin-top: 200px;
+}
+
+.features .body {
+    display: flex;
+}
+
+.features .body>* {
+    width: 50%;
+}
+
+.features .images {
+    margin-right: 15px;
+}
+
+.features .images img {
+    width: 270px;
+    height: 405px;
+    border-radius: 16px;
+}
+
+.features .images .lower {
+    margin-right: 30px;
+    margin-bottom: -33px;
+}
+
+.features-content {
+    padding-left: 108px;
+}
+
+.features-content .desc {
+    color: #5F5B53;
+    font-size: 1.6rem;
+    line-height: 1.75;
+    margin-top: 16px;
+}
+
+.features-content .btn {
+    margin-top: 32px;
+}
