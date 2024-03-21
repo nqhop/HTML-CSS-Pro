@@ -398,6 +398,70 @@ nav .active a::after {
     line-height: 1.66;
 }
 
-.course-list .foot .btn:hover{
+.course-list .foot .btn:hover {
     background: var(--primary-color-2);
+}
+
+/* ===== feedback ===== */
+.feedback {
+    margin-top: 145px;
+    background: #2E2100;
+    padding: 96px 0;
+}
+
+.feedback-item {
+    display: flex;
+}
+
+.feedback .avatar {
+    width: 72px;
+    height: 72px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.feedback .title {
+    color: #F7F7F7;
+    font-family: var(--font-heading);
+    font-size: 2.4rem;
+    font-weight: 700;
+    line-height: 1.41;
+    margin-top: 16px;
+}
+
+.feedback .desc {
+    color: #BFBCB2;
+    font-size: 1.4rem;
+    margin-top: 4px;
+}
+
+.feedback .dots {
+    display: flex;
+    margin-top: 22px;
+}
+
+.feedback .dot {
+    margin-right: 6px;
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    background: #634700;
+    cursor: pointer;
+}
+
+.feedback .dot:nth-child(2) {
+    background: #FFB900;
+}
+
+.feedback-content {
+    width: 770px;
+    margin-left: auto;
+}
+
+.feedback-content p {
+    margin-left: 30px;
+    color: #FFF;
+    font-size: 2.6rem;
+    font-style: italic;
+    line-height: 1.53;
 }
