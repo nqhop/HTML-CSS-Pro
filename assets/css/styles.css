@@ -54,12 +54,30 @@ button {
     display: inline-block;
 }
 
-.btn:hover{
+.btn:hover {
     opacity: 0.9;
 }
 
 .btn-2 {
     background-color: var(--primary-color-2);
+}
+
+.heading {
+    color: #171100;
+    font-family: var(--font-heading);
+    font-weight: 700;
+    
+    letter-spacing: -1.16px;
+}
+
+h1.heading{
+    font-size: 5.8rem;
+    line-height: 1.17;
+}
+
+h2.heading{
+    font-size: 3.8rem;
+    line-height: 1.26;
 }
 
 /* ===== header ===== */
@@ -122,7 +140,7 @@ nav .active a::after {
 }
 
 /* ===== hero ===== */
-.hero{
+.hero {
     background: #FFFCF4;
     padding: 56px 0 64px;
 }
@@ -206,20 +224,11 @@ nav .active a::after {
     margin-left: auto;
 }
 
-.hero-summary .title {
-    color: #171100;
-    font-family: var(--font-heading);
-    font-size: 5.8rem;
-    font-weight: 700;
-    line-height: 1.17;
-    letter-spacing: -1.16px;
-    margin-bottom: 22px;
-}
-
 .hero .desc {
     color: #5F5B53;
     font-size: 1.8rem;
     line-height: 1.66;
+    margin-top: 22px;
 }
 
 .hero .cta {
@@ -275,4 +284,50 @@ nav .active a::after {
     font-size: 4.4rem;
     font-weight: 700;
     line-height: 1.22;
+}
+
+/* ====== popular ===== */
+.popular{
+    padding: 65px 0 65px;
+    margin-top: 135px;
+}
+
+.popular .popular-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.popular .popular-top .desc {
+    color: #5F5B53;
+    font-size: 1.8rem;
+    line-height: 1.66;
+    width: 458px;
+    margin-top: 16px;
+}
+
+.popular .controls{
+    display: flex;
+    gap: 22px;
+}
+
+.popular .control-btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    background: #fff;
+    border-radius: 50%;
+    border: 1px solid var(--primary-color-2);
+}
+.popular .control-btn path {
+    stroke: var(--primary-color-2);
+}
+.popular .control-btn:hover{
+    background: var(--primary-color-2);
+}
+
+.popular .control-btn:hover path{
+    stroke: white;
 }
