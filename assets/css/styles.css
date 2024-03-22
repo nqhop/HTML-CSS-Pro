@@ -473,15 +473,9 @@ nav .active a::after {
 
 .features .body {
     display: flex;
+    justify-content: space-between;
 }
 
-.features .body>* {
-    width: 50%;
-}
-
-.features .images {
-    margin-right: 15px;
-}
 
 .features .images img {
     width: 270px;
@@ -495,7 +489,7 @@ nav .active a::after {
 }
 
 .features-content {
-    padding-left: 108px;
+    width: 41%;
 }
 
 .features-content .desc {
@@ -507,4 +501,17 @@ nav .active a::after {
 
 .features-content .btn {
     margin-top: 32px;
+}
+
+.features-2nd .body {
+    flex-direction: row-reverse;
+}
+
+.features-2nd .images img {
+    width: 470px;
+    height: 440px;
+}
+
+.features-2 .features-content {
+    width: 49%;
 }
