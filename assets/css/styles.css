@@ -52,6 +52,7 @@ button {
     border-radius: 999px;
     background: #171100;
     display: inline-block;
+    cursor: pointer;
 }
 
 .btn:hover {
@@ -343,6 +344,13 @@ nav .active a::after {
 
 .course-list .course-item {
     width: 370px;
+    border-radius: 12px;
+    border: 1px solid #E2DFDA;
+}
+
+.course-list .course-item:hover{
+    box-shadow: 0px 18px 36px 0px rgba(0, 0, 0, 0.05);
+    border: 1px solid transparent;
 }
 
 .course-list .thumb {
