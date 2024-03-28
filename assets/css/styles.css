@@ -431,8 +431,15 @@ nav .active a::after {
     padding: 96px 0;
 }
 
+.feedback-list{
+    display: flex;
+    overflow: hidden;
+}
+
 .feedback-item {
     display: flex;
+    flex-shrink: 0;
+    width: 100%;
 }
 
 .feedback .avatar {
