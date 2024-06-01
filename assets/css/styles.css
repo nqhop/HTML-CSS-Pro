@@ -336,7 +336,7 @@ a {
     border: 16px solid #EAF6FF;
 }
 
-.work-item:hover{
+.work-item:hover {
     border: 16px solid #2E80CE;
     transition: all 0.3s ease-out;
     transform: translateY(-10px);
@@ -357,12 +357,70 @@ a {
     line-height: 1.75;
 }
 
-.work-item__more{
+.work-item__more {
     margin-top: 18px;
     display: inline-block;
 }
 
-.work-item__more:hover{
+.work-item__more:hover {
     color: #2E80CE;
     font-weight: 600;
+}
+
+/* ======== feature =========*/
+.feature {
+    margin: 170px 0;
+}
+
+.feature__inner {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.feature__media {
+    position: relative;
+
+    /* use this for center feature__content */
+    --top-position-absolute: 120px;
+    padding-bottom: var(--top-position-absolute);
+}
+
+.feature__img:first-child {
+    width: 512px;
+    height: 370px;
+    flex-shrink: 0;
+    border-radius: 6px;
+    object-fit: cover;
+}
+
+.feature__img:last-child {
+    width: 332px;
+    height: 370px;
+    border-radius: 6px;
+    flex-shrink: 0;
+    object-fit: cover;
+    position: absolute;
+    right: 0;
+    top: var(--top-position-absolute);
+}
+
+.feature__content {
+    width: 470px;
+    margin: auto 0 auto auto;
+}
+
+.feature__heading {
+    color: #10375C;
+    font-size: 50px;
+    font-weight: 600;
+    line-height: 1.20;
+    letter-spacing: -1px;
+}
+
+.feature__desc {
+    color: #575F66;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 1.67;
+    padding: 18px 0 32px;
 }
