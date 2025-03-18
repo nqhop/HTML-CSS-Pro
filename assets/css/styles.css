@@ -770,3 +770,46 @@ a {
 .about-team__img:first-child {
     margin-left: 0;
 }
+
+/* process */
+.process-body {
+    margin-top: 150px;
+}
+
+.process-list {
+    margin-top: 80px;
+}
+
+.process-item {
+    display: flex;
+    border-radius: 33px;
+    background: #E2EDDF;
+    padding: 46px 40px 20px 20px;
+}
+
+.process-index {
+    color: #143C3C;
+    font-size: 7.2rem;
+    font-weight: 600;
+    line-height: 0.7;
+}
+
+.process-heading {
+    margin-left: 50px;
+}
+
+.process__name {
+    color: #152427;
+    font-size: 2.2rem;
+    font-weight: 600;
+    line-height: 1;
+}
+
+.process-desc {
+    color: #7D8188;
+    font-size: 1.8rem;
+    font-weight: 500;
+    line-height: 1.6;
+    width: 572px;
+    text-align: right;
+}
