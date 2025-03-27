@@ -18,3 +18,7 @@
 5. creative-agency-landing-page
     1. [View](https://creative-agency-landing-page-h.netlify.app/)
     2. [Source](https://github.com/nqhop/HTML-CSS-Pro/tree/3.1-creative-agency-landing-page)
+
+6. lucy-pet-care-landing-page
+    1. [View](https://lucy-pet-care-landing-page-h.netlify.app/)
+    2. [Source](https://github.com/nqhop/HTML-CSS-Pro/tree/04.-lucy-pet-care-landing-page)
